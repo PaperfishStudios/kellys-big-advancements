@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "kelsadv",
+  "version": "1.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "kel's advancements screen",
+  "description": "the advancements screen but with room to breathe",
   "authors": [
-    "Me!"
+    "paperfish"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/kelsadv/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.paperfish.kelsadv.KelsAdv"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "kelsadv.mixins.json"
   ],
 
   "depends": {
@@ -32,6 +31,7 @@
     "minecraft": "1.18.x",
     "java": ">=17"
   },
+  "accessWidener" : "kelsadv.accesswidener",
   "suggests": {
     "another-mod": "*"
   }
